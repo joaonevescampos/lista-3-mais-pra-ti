@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.main-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: auto;
+    margin: auto;
+}
+
+.grid-area {
+    display: grid;
+    grid-template-columns: repeat(1, 200px);
+    grid-template-rows: 150px 180px;
+    gap: 20px;
+    margin: 0;
+}
+
+.grid-area > img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
