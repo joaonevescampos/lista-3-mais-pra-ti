@@ -1,7 +1,31 @@
-Lista de Exercícios 3 – Desenvolvimento Web Básico
+## Instruções para rodar o exercício:
+
+1) Copie o link do repositório:
+
+https://github.com/joaonevescampos/lista-3-mais-pra-ti.git
+
+2) Abra o terminal na sua máquina
+Navegue até a pasta onde deseja salvar o repositório:
+
+
+cd ~/Documentos/projetos
+
+3) Use o comando git clone
+
+git clone https://github.com/joaonevescampos/lista-3-mais-pra-ti.git
+
+4) Acesse a pasta clonada
+
+cd nome-do-repositorio
+
+---
+
+
+## Lista de Exercícios 3 – Desenvolvimento Web Básico
 
 1. Crie um arquivo chamado index.html e monte nele a seguinte estrutura usando
 sempre tags semânticas:
+
 - Um <header> contendo um <h1> (título) e um <p> (parágrafo) introdutório.
 - Um <main> dividido em duas subseções:
 - Seção “Missão” com <h2> e <p>.
@@ -47,3 +71,4 @@ Grid para telas menores por meio de media query.
 7. Menu Hamburger - implemente um menu “hamburger” que:
 - Apareça apenas em telas com largura ≤ 600 px.
 - Oculte a navegação padrão e abra/feche o menu ao ser clicado.
+
