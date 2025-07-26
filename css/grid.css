@@ -3,6 +3,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin: 0;
 }
 
 .main-container {
@@ -13,6 +14,7 @@ body {
     flex-wrap: wrap;
     width: auto;
     margin: auto;
+    padding: 20px;
 }
 
 .grid-area {

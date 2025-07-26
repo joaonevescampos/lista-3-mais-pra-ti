@@ -5,8 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid e Flexbox</title>
     <link rel="stylesheet" href="../css/grid.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/reset.css" />
 </head>
 <body>
+    <picture class="open-menu">
+        <img src="../imgs/menu/menu.svg" alt="menu">
+    </picture>
+    <nav class="menu-container">
+        <div class="list-container">
+            <picture class="close-menu">
+                <img src="../imgs/menu/close.svg" alt="close menu">
+            </picture>
+        <h1>Menu</h1>
+        <ul class="menu-list">
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+            <li>
+                <a href="../pages/feedback.html">Feedback</a>
+            </li>
+            <li>
+                <a href="../pages/grid.html">Galeria</a>
+            </li>
+            <li>
+                <a href="../pages/listas.html">Listas</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
     <main class="main-container">
         <figure class="grid-area">
             <img src="../imgs/goku.png" alt="goku">
@@ -42,4 +69,5 @@
         </figure>
     </main>
 </body>
+<script src="../js/menu.js"></script>
 </html>

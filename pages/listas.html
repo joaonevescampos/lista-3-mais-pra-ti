@@ -3,10 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/listas.css" />
+    <link rel="stylesheet" href="../css/menu.css">
     <title>Listas e Navegação</title>
 </head>
 <body>
-    <main>
+    <picture class="open-menu">
+        <img src="../imgs/menu/menu.svg" alt="menu">
+    </picture>
+    <nav class="menu-container">
+        <div class="list-container">
+            <picture class="close-menu">
+                <img src="../imgs/menu/close.svg" alt="close menu">
+            </picture>
+        <h1>Menu</h1>
+        <ul class="menu-list">
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+            <li>
+                <a href="../pages/feedback.html">Feedback</a>
+            </li>
+            <li>
+                <a href="../pages/grid.html">Galeria</a>
+            </li>
+            <li>
+                <a href="../pages/listas.html">Listas</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    <main class="main-lists">
         <h1>Listas</h1>
         <h2>Hobbies</h2>
         <ul>
@@ -35,5 +63,6 @@
         <h4>Cobertura</h4>
         <p>Misture o leite condensado com achocolatado e creme de leite. Leve ao fogo e misture sempre por 8 minutos até chegar no ponto de cobertura. Depois do bolo pronto, adicione a cobertura por cima do bolo.</p>
     </main>
+    <script src="../js/menu.js"></script>
 </body>
 </html>
